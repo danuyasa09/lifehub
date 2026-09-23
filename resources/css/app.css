@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-background: #F8FAFC;
+    --color-surface: #FFFFFF;
+    --color-surface-secondary: #F1F5F9;
+    --color-border: #E2E8F0;
+    --color-primary: #4F46E5;
+    --color-primary-hover: #4338CA;
+    --color-accent: #06B6D4;
+    --color-success: #22C55E;
+    --color-warning: #F59E0B;
+    --color-danger: #EF4444;
+    --color-text: #0F172A;
+    --color-text-secondary: #64748B;
+  }
+
+  .dark {
+    --color-background: #0A0F1E;
+    --color-surface: #141A29;
+    --color-surface-secondary: #1E293B;
+    --color-border: #2A364B;
+    --color-primary: #0088FF;
+    --color-primary-hover: #3B82F6;
+    --color-accent: #00E5FF;
+    --color-success: #10B981;
+    --color-warning: #F59E0B;
+    --color-danger: #EF4444;
+    --color-text: #F8FAFC;
+    --color-text-secondary: #94A3B8;
+  }
+}
+
+@layer utilities {
+    .neon-glow-primary {
+        box-shadow: 0 0 15px rgba(0, 136, 255, 0.4), inset 0 0 5px rgba(0, 136, 255, 0.2);
+    }
+    
+    .neon-border-glow {
+        box-shadow: inset 0 0 0 1px rgba(0, 136, 255, 0.8), 0 0 20px rgba(0, 136, 255, 0.3);
+    }
+    
+    .dark-card-glow {
+        box-shadow: 0 8px 30px rgba(0,0,0,0.4), inset 0 1px 1px rgba(255,255,255,0.05);
+    }
+}
