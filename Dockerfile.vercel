@@ -6,7 +6,8 @@ RUN install-php-extensions \
     bcmath \
     exif \
     pcntl \
-    intl
+    intl \
+    zip
 
 WORKDIR /app
 
