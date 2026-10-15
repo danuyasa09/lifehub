@@ -7,13 +7,17 @@
 
         <title>{{ config('app.name', 'LifeHub') }}</title>
 
+        <!-- Favicon / Browser Tab Icon -->
+        <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
+        <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
+
         <!-- PWA Meta Tags -->
         <link rel="manifest" href="{{ asset('manifest.json') }}">
         <meta name="theme-color" content="#4F46E5">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="default">
         <meta name="apple-mobile-web-app-title" content="LifeHub">
-        <link rel="apple-touch-icon" href="https://laravel.com/img/logomark.min.svg">
 
         <!-- Theme Initialization -->
         <script>
