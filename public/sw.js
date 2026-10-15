@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lifehub-cache-v2';
+const CACHE_NAME = 'lifehub-cache-v3';
 const OFFLINE_URL = '/offline';
 const URLS_TO_CACHE = [
     '/',

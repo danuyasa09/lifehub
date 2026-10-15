@@ -7,9 +7,9 @@
         <title>{{ config('app.name', 'LifeHub') }}</title>
 
         <!-- Favicon / Browser Tab Icon -->
-        <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
-        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
-        <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}?v=2">
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}?v=2">
+        <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}?v=2">
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
